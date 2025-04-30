@@ -5,6 +5,7 @@ int main() {
     //TORRE - Move-se em linha reta horizontalmente ou verticalmente.
     //BISPO - Move-se na diagonal.
     //RAINHA - Move-se em todas as direções.
+    //CAVALO - Move-se duas casas em uma direção (horizontal ou vertical) e depois uma casa perpendicularmente, formando um "L".
     
     int torre = 5, bispo = 0;
 
@@ -34,7 +35,20 @@ int main() {
     {
         printf("Esquerda\n");
     }
+
+    // Nível Aventureiro - Movimentando o Cavalo (loops aninhados)
+    printf("CAVALO (duas para baixo, uma para a esquerda)\n");
+    for (int i = 0; i < 2; i++){
+        printf("Baixo\n");
+        
+    }int j = 0;
+    while (j < 1){
+        printf("Esquerda\n");
+        j++;
+    }
     
+
+       
 
     return 0;
 }
